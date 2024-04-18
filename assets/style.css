@@ -11,13 +11,14 @@ h1 {
 
 .clickme {
     display: flex;
+    flex-wrap: wrap;
     gap: 2em;
     justify-content: center;
 }
 
 .ball {
-    width: 150px;
-    height: 150px;
+    width: 10vh;
+    height: 10vh;
     border-radius: 50%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
