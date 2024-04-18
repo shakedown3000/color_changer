@@ -1,0 +1,55 @@
+section {
+    font-family: "DM Sans";
+}
+
+h1 {
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.clickme {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.ball {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.white {
+    background: white !important; 
+}
+
+.ball:hover {
+    cursor: pointer;
+}
+
+.one {
+    background: #ff7e5f;  
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+}
+
+.two {
+    background: #fffc00;
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00); 
+    background: linear-gradient(to right, #ffffff, #fffc00);
+}
+
+.three {
+    background: #de6161;
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+    background: linear-gradient(to right, #2657eb, #de6161); 
+}
+
+.four {
+    background: #4B79A1; 
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    background: linear-gradient(to right, #283E51, #4B79A1); 
+}
